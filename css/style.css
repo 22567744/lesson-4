@@ -1,0 +1,135 @@
+/* Комбінація класів */
+/* text ТА lesson */
+
+/* text ТА lesson ОДНОЧАСНО!!! */
+
+
+h2{
+	color: darkslategray;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+	color: maroon;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+	color: darkmagenta;
+	font-family:'Times New Roman', Times, serif;
+}
+
+h4{
+	color: orange;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h5{
+	color: mediumvioletred;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Вкладеність класів */
+
+.block{
+	color: darkolivegreen;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+	color: darkgray;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text{
+	color: orange;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ipsum{
+	color: violet;
+}
+
+.text-block{
+	color: indianred;
+}
+
+.milk{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+	font-weight: 600;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+div{
+	color: darkcyan;
+	font-size: medium;
+}
+
+.horse{
+	color: brown;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.bull{
+	color: saddlebrown;
+	font-weight: 600;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+
+/* ====================== ШРИФТИ =============================== */
+
+
+
+/*--------- Підключення шрифтів ---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+  font-size: medium;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 800;
+	font-size: medium;
+}
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+
+
+/* -------- CSS-властивості тексту ------------ */
+
